@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(38, 105, 194);
+    
+}
+.top{
+    padding-left:80px;
+}
+/* .btn{
+    list-style-type: none;
+    background-color: white;
+    padding: 3px;
+    float: right;
+    margin-bottom: 10px;
+} */
+/* .top ul li{
+    list-style-type: none;
+    padding: 4px;
+    float: right;
+    padding-bottom: 5px;
+    background-color: white;
+    margin-left: 4px;
+} */
+.header img{
+    float: left;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+.header p{
+    padding-top: 15px;
+    padding-left: 330px;
+    color: white;
+}
+
+.nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border: transparent;
+    
+
+}
+.nav img{
+    height: 50px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.nav ul{
+    float: right;
+    margin-right: 80px;
+    margin-top: 25px;
+}
+.nav ul li {
+    margin: 0px;
+    border: 1px solid transparent;
+    display: inline;
+    border-radius: 50px;
+    background-color: white;
+    padding: 9px;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+}
+.nav ul li :hover {
+    margin: 0px;
+    border: 1px solid transparent;
+    display: inline;
+    border-radius: 50px;
+    background-color: rgb(38, 105, 194);
+    padding: 9px;
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+}
+
+
+ .nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+} 
+#home {
+    margin: 0px;
+    display: inline;
+    border-radius: 50px;
+    background-color: rgb(38, 105, 194);
+    padding: 9px;
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+}
+
+.slide img{
+    width: 100%;
+    height: 450px;
+    
+}
+.slide marquee{
+
+    height: 25px;
+    margin-top: 15px;
+    width: 90%;
+    background-color: rgb(38, 105, 194);
+    margin-left: 5%;
+    padding-top: 5px;
+}
+.slide marquee p{
+    color: white;
+}
+.mid h1{
+    color: rgb(38, 105, 194);
+    text-align: center;
+    margin-top: 50px;
+
+}
+.mid span{
+    color: green;
+}
+.mid img{
+    width:40px;
+    height: 40px;
+    margin-left: 48%;
+    
+}
+.line{
+    width: 40px;
+    height: 40px;
+    border-bottom: 3px solid green;
+}
+.mid p{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    font-size: large;
+    word-spacing: 3px;
+    line-height: 30px;
+    text-align: justify;
+    color: grey;
+}
+.facility{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(0, 86, 199);
+    margin-top: 80px;
+}
+
+.info {
+    width: 280px;
+    height: 200px;
+    float: left;    
+    margin-top: 70px;
+    margin-left: 30px;
+    
+    
+}
+.info img{
+    width: 40px;
+    justify-content: center;
+    padding-left: 118px;
+    
+}
+.info h1{
+    color: white;
+    text-align: center;
+    
+}
+
+.info h5{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.info span{
+    font-size: large;
+    color: rgb(53, 199, 53);
+}
+
+.work h1{
+    text-align: center;
+    color: rgb(0, 86, 199);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 40px;
+}
+.work span{
+    color: green;
+}
+.work-body{
+    height: 550px;
+    background-color: rgb(245, 245, 245);
+    margin-left: 40px;
+}
+.logo{
+    width:40px;
+    height: 40px;
+    margin-left: 48%;
+}
+.card{
+    height: 200px;
+    width: 370px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    float: left;
+    margin-top: 40px;
+    margin-left: 38px;
+    background-color: white;
+    
+}
+.card img{
+    width: 60px;
+    height: 60px;
+    padding-top: 30px;
+    padding-left: 42%;
+}
+.card h1{
+    text-align: center;
+    color: rgb(0, 86, 199);
+
+
+} 
+.mission{
+    width: 65%;
+}
+.mission h1{
+    color: rgb(0, 86, 199);
+    margin-left: 80px; 
+    margin-top:30px ;
+    border-bottom: 3px solid green;
+    padding-bottom: 4px;
+    /* padding-left: 80px; */
+}
+.main{
+    margin-left: 20px;
+}
+.aims{
+    border: .5px solid gray;
+    background-color: rgb(236, 236, 236);
+    width: 350px;
+    
+    margin-left: 20px;
+    margin-bottom: 6px;
+    padding: 4px;
+}
+.aims img{
+    width: 30px;
+    
+    padding-left: 7px;
+    padding-top: 12px;
+}
+.aim-head{
+    font-size: large;
+    padding-left: 50px;   
+    color: rgb(0, 86, 199);
+
+    
+}
+table{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.marq{
+
+    width: 250px;
+    height: 200px;
+    margin-left: 20px;
+
+}
+.marq p{
+    line-height: 30px;
+    color: rgb(83, 83, 83);
+}
+.gallery{
+    height: 400px;
+}
+.gallery h1{
+    text-align: center;
+    color: rgb(0, 86, 199);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+}
+.gallery span{
+    color: green;
+}
+/* .line{
+    width: 40px;
+    height: 40px;
+    border-bottom: 3px solid green;
+}
+ */
+
+.tab {
+    display: flex;
+    justify-content: center;
+}
+.image{
+    margin-left: 60px;
+    margin-top: 80px;
+}
+.image img{
+
+    display: inline;
+    width: 230px;
+    height: 150px;
+
+}
+
+.footer{
+    width: auto;
+    height: 350px;
+    background-color: rgb(29, 29, 29);
+}
+.address p{
+    color: rgb(197, 197, 197);
+    padding-top: 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .address{
+    padding-left: 100px;
+    /* padding-top: 80px; */
+} 
+.no{
+    padding-top: 60px;
+    
+}
+ .no tr td p{
+     padding-left: 4px;
+
+ }
+ .social{
+     padding-left: 165px;
+     padding-top: 9px;
+ }
+ .no tr td img{
+     width: 25px;
+     height: 25px;
+     padding-left: 5px;
+     
+ }
+ .no tr td h3{
+     padding-left: 150px;
+     color: white;
+ }
+/* .link h3{
+    display: flex;
+    justify-content: center;
+} */
+.link{
+    border-bottom: 1px solid rgb(9, 255, 0);
+}
+
+.bottom{
+    width: auto;
+    height: 50px;
+    background-color: rgb(48, 117, 207);
+}
+.bottom p{
+    color: white;
+    padding-top: 16px;
+    padding-left: 100px;
+}
+
+
+
+
+
+
